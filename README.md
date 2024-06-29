@@ -20,3 +20,9 @@ Code will be imported through implementing:
 "{...}" represents one or more functionss.
 ```
 The copy of the input library will be included in the .zip file
+
+## Input library
+The input library ('parse_temps.py') provides functions to read data points froma  file containing CPU temperatures.
+
+#### Example Input File 
+The input file should contain CPU temperature data, where each line represents temperatures recorded at each time step:
