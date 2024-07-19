@@ -26,3 +26,6 @@ The input library ('parse_temps.py') provides functions to read data points from
 
 #### Example Input File 
 The input file should contain CPU temperature data, where each line represents temperatures recorded at each time step:
+
+##### To run the code
+To run the code, use the arguments: python (or python3) main.py sensors-2018.12.26.txt in the root directory of the project. 

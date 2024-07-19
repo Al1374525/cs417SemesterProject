@@ -7,7 +7,7 @@ def calculate_intercept(x, y, slope):
     return y - slope * x
 
 def piecewise_linear_interpolation(data_points, x):
-    for i in range(leng(data_points) - 1 ):
+    for i in range(len(data_points) - 1 ):
         xk, yk = data_points[i]
         xk1, yk1 = data_points[i + 1]
         if xk <= x <= xk1:
